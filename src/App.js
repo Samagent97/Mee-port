@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 import Intro from './Components/Intro/Intro'
 import ProductList from './Components/Product-list/ProductList'
 import Toggle from './Components/toggle/Toggle'
@@ -23,6 +24,7 @@ function App() {
   <About />
   <ProductList />
   <Contact />
+  <Footer />
 
     </div>
   )
