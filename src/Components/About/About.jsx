@@ -1,14 +1,35 @@
-import React from 'react'
-import stand from '../../assets/work1.png'
+import React, { useState, useEffect } from 'react'
+// import stand from '../../assets/work1.png'
 import Award from '../../assets/work7.png'
 import './About.css'
 function About() {
+  //const [pics , setPics] = useState(stand)
+  const [imgCounter, setImgCounter] = useState(0)
+const myPics= ["work1.png","work2.png","work3.png","work4.png","work5.png","work6.png","work7.png","work8.png","work9.png"]
+// const moveImages = () =>{
+  useEffect(()=>{
+    let slider = setInterval(()=>{
+      setImgCounter((imgCounter)=>{
+        if (imgCounter=== (myPics.length -1) ){
+          clearInterval(slider);
+          return 0;
+        }
+        return imgCounter + 1;
+      })
+    },3000)
+
+  },[])
+
+  
+
+// }
+// moveImages();
   return (
     <div className='a'>About
     <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-            <img src={stand} alt="" className="a-img" />
+            <img src={require(`../../assets/${myPics[imgCounter]}`)} alt="" className="a-img" />
         </div>
     </div>
     <div className="a-right">right

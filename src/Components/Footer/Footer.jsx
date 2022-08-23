@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className='footer'>
             <div className='mine'>
-            <p>Copyright © 2021 - All right reserved</p>
+            <p>Copyright © 2022 - All right reserved</p>
             </div>
         <ul className='company'>
             <li className='footer-links'>
