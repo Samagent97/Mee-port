@@ -35,8 +35,7 @@ const myPics= ["work1.png","work2.png","work3.png","work4.png","work5.png","work
     <div className="a-right">right
     <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          A big gee with the end goal of greatness.
         </p>
         <p className="a-desc">
          I'm a Frontend developer, Sytem admin , Linux administrator , Trainer , Mentor and Tech moron who loves going extra miles to make things work... i work under pressure and also give my best with Teams 
