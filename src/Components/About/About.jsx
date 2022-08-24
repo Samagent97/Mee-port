@@ -8,10 +8,10 @@ function About() {
 const myPics= ["work1.png","work2.png","work3.png","work4.png","work5.png","work6.png","work7.png","work8.png","work9.png"]
 // const moveImages = () =>{
   useEffect(()=>{
-    let slider = setInterval(()=>{
+    setInterval(()=>{
       setImgCounter((imgCounter)=>{
         if (imgCounter=== (myPics.length -1) ){
-          clearInterval(slider);
+          
           return 0;
         }
         return imgCounter + 1;
