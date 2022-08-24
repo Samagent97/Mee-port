@@ -1,3 +1,4 @@
+import React from 'react'
 import {useState, useRef} from 'react'
 import './Contact.css'
 import phone from '../../assets/icons8-phone-48.png'
