@@ -39,10 +39,8 @@ const myPics= ["work1.png","work2.png","work3.png","work4.png","work5.png","work
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+         I'm a Frontend developer, Sytem admin , Linux administrator , Trainer , Mentor and Tech moron who loves going extra miles to make things work... i work under pressure and also give my best with Teams 
+         i have worked on multile professional projects and also individual projects..this portfolio was done with 100% react app ...
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
