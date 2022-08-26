@@ -32,7 +32,7 @@ const myPics= ["work1.png","work2.png","work3.png","work4.png","work5.png","work
             <img src={require(`../../assets/${myPics[imgCounter]}`)} alt="" className="a-img" />
         </div>
     </div>
-    <div className="a-right">right
+    <div className="a-right">
     <h1 className="a-title">About Me</h1>
         <p className="a-sub">
           A big gee with the end goal of greatness.
