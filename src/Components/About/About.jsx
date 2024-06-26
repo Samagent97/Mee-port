@@ -18,7 +18,7 @@ const myPics= ["work1.png","work2.png","work3.png","work4.png","work5.png","work
       })
     },3000)
 
-  },[])
+  },[myPics.length])
 
   
 
