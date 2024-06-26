@@ -4,6 +4,7 @@ import './Contact.css'
 import phone from '../../assets/icons8-phone-48.png'
 import email from '../../assets/icons8-mail-50.png'
 import address from '../../assets/icons8-address-50.png'
+// import emaijs from 'emailjs-com'
 //import {useRef, useState, useContext} from 'react'
 import emailjs from '@emailjs/browser';
 //import {ThemeContext} from '../../Context'
@@ -19,10 +20,10 @@ function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_s54n587",
+        "service_8b84fhg",
         "template_06v6gic",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "22fLAOUB_bZM1xVZM"
       )
       .then(
         (result) => {
@@ -34,6 +35,30 @@ function Contact() {
         }
       );
   };
+// function Contact() {
+//   const formRef = useRef(); // Ref for accessing the form DOM element
+//   const [done, setDone] = useState(false); // State to manage form submission status
+
+// const handleSubmit = (e) => {
+//   e.preventDefault(); // Prevent default form submission behavior
+//   emailjs
+//     .sendForm(
+//       'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
+//       'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+//       formRef.current, // Reference to the form DOM element
+//       'YOUR_USER_ID' // Replace with your EmailJS user ID
+//     )
+//     .then(
+//       (result) => {
+//         console.log(result.text);
+//         setDone(true); // Set done to true on successful submission
+//       },
+//       (error) => {
+//         console.log(error.text);
+//         // Handle errors here, if any
+//       }
+//     );
+// };
   return (
     <div className='C'>
         <div className="c-bg">
@@ -50,11 +75,11 @@ function Contact() {
 
                 <div className="c-info-item">
                 <img src={email} alt="" className="c-icon" />
-                sammccarthy090@gmail.com
+                samson@elenii.xyz
                 </div>
                 <div className="c-info-item">
                 <img src={address} alt="" className="c-icon" />
-                Abuja
+                Lagos
                 </div>
                 
                 
@@ -64,9 +89,9 @@ function Contact() {
         <div className="c-right">
         <p className="c-desc">
             <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            working if the right project comes along. 
           </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
+          <form className='c-text' ref={formRef} onSubmit={handleSubmit} >
             <input  type="text" placeholder="Name" name="user_name" />
             <input  type="text" placeholder="Subject" name="user_subject" />
             <input  type="text" placeholder="Email" name="user_email" />

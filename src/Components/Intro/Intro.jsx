@@ -1,25 +1,25 @@
 import React from "react";
 import "./Intro.css";
-import me from '../../assets/port.png';
+import me from '../../assets/carty.webp';
 
 function Intro() {
   return (
     <div className="I">
       <div className="I-left">
         <div className="I-left-wrapper">
-          <h2 className="I-intro">Hello, My names are</h2>
+          <h2 className="I-intro">Meet</h2>
           <h1 className="I-name">Samson Nuhu McCarthy</h1>
           <div className="I-title">
             <div className="I-title-wrapper">
               <div className="I-title-item"> Web Developer</div>
               <div className="I-title-item"> Mentor</div>
-              <div className="I-title-item"> System Administrator</div>
+              <div className="I-title-item"> System/Linux Administrator</div>
+              <div className="I-title-item"> Product Lead</div>
             </div>
           </div>
           <p className="I-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web service and
-            online stores
+            I am an innovator who deigns and develop services for customers of all sizes,
+            specializing in creating stylish, Modern websites and Manage Products. Additionally, i'm also an SDG advocate who has led teams ondiffrent projects.
           </p>
         </div>
         <svg

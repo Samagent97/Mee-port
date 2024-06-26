@@ -6,11 +6,11 @@ function Footer() {
     return (
         <div className='footer'>
             <div className='mine'>
-            <p>Copyright © 2022 - All right reserved</p>
+            <p>Copyright © 2024 - All right reserved</p>
             </div>
         <ul className='company'>
             <li className='footer-links'>
-                <div  className='mine'>About us</div>
+                <div  className='mine'>About me</div>
             </li>
             <li className='footer-links'>
                 <div  className='mine'>Terms of use</div>
