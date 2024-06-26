@@ -1,4 +1,4 @@
- [
+[
     {
       "id": 1,
       "img": "Github.png",
@@ -7,35 +7,29 @@
     ,
     {
       "id": 2,
-      "img": "In.png",
-      "link": "https://www.linkedin.com/in/samson-mccarthy-b2495821a"
-    },
-    {
-      "id": 3,
-      "img": "Twitter_new_X_logo.webp",
-      "link": "https://x.com/Cartysamson"
-    },
-    {
-      "id": 4,
       "img": "4.webp",
       "link": "https://www.elenii.xyz/"
     },
     {
-      "id": 5,
+      "id": 3,
       "img": "iconpackmyload.webp",
       "link": "https://www.packmyload.com/"
     },
     {
-      "id": 6,
+      "id": 4,
       "img": "igblh.webp",
       "link": "https://ig.bluehouseng.com/"
     },
     {
-      "id": 7,
+      "id": 5,
       "img": "bluehouse.webp",
       "link": "https://www.bluehouseng.com/"
+    },
+    {
+      "id": 6,
+      "img": "Twitter_new_X_logo.webp",
+      "link": "https://x.com/Cartysamson"
     }
-    
     
   ]
   

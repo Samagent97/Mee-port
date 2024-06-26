@@ -35,5 +35,15 @@
     .pl-desc {
       display: none;
     }
+
+    .pl-list{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 200px;
+      width: 100%;
+    }
   }
+
+  
   

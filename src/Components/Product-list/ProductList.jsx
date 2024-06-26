@@ -7,9 +7,9 @@ function ProductList() {
   return (
     <div className='pl'>
         <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. Mr Carty </h1>
+        <h1 className="pl-title">Create & inspire.  </h1>
         <p className="pl-desc">
-          Check into past works and see of what help i can be to you 
+          My social links and Previous done projects
         </p>
       </div>
       <div className="pl-list">
